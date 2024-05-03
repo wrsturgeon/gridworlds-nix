@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "gridworlds-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1602608382,
+        "narHash": "sha256-c+A7AtBIk8A3qrIZsgYlN7w+IUDh4Wl3+I2v3ad0PTA=",
+        "owner": "google-deepmind",
+        "repo": "ai-safety-gridworlds",
+        "rev": "c43cb31143431421b5d2b661a2458efb301da9a3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "google-deepmind",
+        "repo": "ai-safety-gridworlds",
+        "type": "github"
+      }
+    },
+    "pycolab-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1567755793,
+        "narHash": "sha256-866nrkevuoCnG3xinIuj/F5tE/dOZ4w47TDfOtTf/ZQ=",
+        "owner": "google-deepmind",
+        "repo": "pycolab",
+        "rev": "6504c8065dd5322438f23a2a9026649904f3322a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "google-deepmind",
+        "repo": "pycolab",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "gridworlds-src": "gridworlds-src",
+        "pycolab-src": "pycolab-src"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
